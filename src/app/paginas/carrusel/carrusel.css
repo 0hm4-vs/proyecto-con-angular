@@ -1,0 +1,22 @@
+/* Carrusel */
+    .carousel-section {
+      padding: 80px 20px;
+      background-color: var(--color-light);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: calc(100vh - 60px); /* ocupa casi toda la pantalla */
+      box-sizing: border-box;
+    }
+    .carousel-section h2 {
+      text-align: center;
+      color: var(--color-primary);
+      font-weight: 700;
+      margin-bottom: 40px;
+    }
+    .carousel-inner img {
+      border-radius: 10px;
+      object-fit: cover;
+      height: 450px;
+    }

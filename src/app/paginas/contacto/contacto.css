@@ -1,0 +1,50 @@
+/* Contacto */
+    .contacto {
+    position: relative;
+    background: url("/img/coding-1841550.jpg") center center / cover no-repeat;
+    color: #fff;
+    min-height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    }
+    
+    /* Overlay para contraste */
+    .contacto::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.6); /* Ajusta el nivel de oscuridad */
+      z-index: 0;
+    }
+    
+    /* Contenido encima del overlay */
+    .contacto .container {
+      position: relative;
+      z-index: 1;
+      /* margin: 0 auto;
+      max-width: 800px;
+      padding: 0; */
+    }
+    
+    .contacto h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-weight: 700;
+    }
+    
+    .form-control {
+      border-radius: 8px;
+      border: none;
+    }
+    
+    .btn-enviar {
+      background-color: var(--color-accent);
+      border: none;
+      font-weight: 600;
+    }
+    
+    .btn-enviar:hover {
+      background-color: #0097e6;
+    }

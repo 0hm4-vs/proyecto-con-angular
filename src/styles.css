@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+      --color-primary: #0a3d62;
+      --color-accent: #00a8ff;
+      --color-light: #f5f6fa;
+    }
+
+    html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--color-light);
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
